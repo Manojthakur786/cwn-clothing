@@ -8,8 +8,8 @@ import { Route } from 'react-router-dom';
 
 
 import './collection.style.scss';
-const CollectionPage=({match})=>{
-    console.log(match);
+const CollectionPage=({collection})=>{
+    console.log(collection);
     return(
     <div className='category'>
         <h2>CATEGORY PAGE</h2>
