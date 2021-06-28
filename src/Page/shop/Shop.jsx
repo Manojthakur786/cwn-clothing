@@ -4,7 +4,7 @@ import './shop.style.scss';
 import { Route, Switch } from 'react-router-dom';
 
 import CollectionOverview from '../../Component/collection-overview/collection-overview.component';
-import CollectionPage from '../category/collection.component';
+import CollectionPage from '../collection/collection.component';
 
 const Shop = ({ match }) =>{
 console.log(match);
